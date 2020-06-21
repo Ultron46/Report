@@ -1,0 +1,14 @@
+------Error(2020-06-21 21:08:07.4195)DESKTOP-LS13G7I------
+
+                      Exception Type:System.NullReferenceException |
+                      Exception Message:Object reference not set to an instance of an object. |
+                      Stack Trace: |
+                      Additional Info:Hi I am NLog Error Level
+
+------Fatal(2020-06-21 21:08:07.4833)DESKTOP-LS13G7I------
+
+                      Exception Type:System.NullReferenceException |
+                      Exception Message:Object reference not set to an instance of an object. |
+                      Stack Trace: |
+                      Additional Info:Hi I am NLog Fatal Level
+

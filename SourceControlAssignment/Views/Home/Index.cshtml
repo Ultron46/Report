@@ -1,0 +1,23 @@
+﻿@model SourceControlAssignment.ViewModels.UserViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<!--================Home Banner Area =================-->
+<div class="row" style="margin-top:25px;">
+    <div class="col-md-6 col-md-offset-1">
+        <img src="@Model.ImageSrc" alt="" style="max-height:690px; max-width:668px;">
+    </div>
+    <div class="col-md-3 col-md-offset-2 ">
+        <h4>Welcome</h4>
+        <h2>@Model.FirstName @Model.LastName</h2>
+        <p>Height : @Model.Height Weight : @Model.Weight</p>
+        <ul class="list">
+            <li><a href="#"><i class="lnr lnr-calendar-full"></i> @Model.Birthdate.ToString("dd/MM/yyyy")</a></li>
+            <li><a href="#"><i class="lnr lnr-phone-handset"></i> @Model.Phone</a></li>
+            <li><a href="#"><i class="lnr lnr-envelope"></i> @Model.Email</a></li>
+        </ul>
+    </div>
+</div>
+<!--================End Home Banner Area =================-->
